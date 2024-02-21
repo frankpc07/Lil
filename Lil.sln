@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Sales", "Lil.Sales\Lil.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Search", "Lil.Search\Lil.Search.csproj", "{30D7EE21-C41F-406D-8997-06474D10CE62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Customers.Tests", "Lil.Customers.Tests\Lil.Customers.Tests.csproj", "{AED45CE9-3433-4CD2-9AE8-1CA9E728B47B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Customers.Tests", "Lil.Customers.Tests\Lil.Customers.Tests.csproj", "{AED45CE9-3433-4CD2-9AE8-1CA9E728B47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Products.Tests", "Lil.Products.Tests\Lil.Products.Tests.csproj", "{6AD25316-3F95-44A1-91FD-2FB9B538D54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AED45CE9-3433-4CD2-9AE8-1CA9E728B47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED45CE9-3433-4CD2-9AE8-1CA9E728B47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED45CE9-3433-4CD2-9AE8-1CA9E728B47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD25316-3F95-44A1-91FD-2FB9B538D54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD25316-3F95-44A1-91FD-2FB9B538D54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD25316-3F95-44A1-91FD-2FB9B538D54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD25316-3F95-44A1-91FD-2FB9B538D54A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
