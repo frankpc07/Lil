@@ -38,6 +38,9 @@ namespace Lil.Search.Controllers
 
 				var sales = await this._salesService.GetAsync(customerId);
 
+				if (customer == null || sales == null)
+					return NotFound();
+
 				foreach (var sale in sales)
 				{
 					foreach (var item in sale.Items)
@@ -54,7 +57,7 @@ namespace Lil.Search.Controllers
 					Customer = customer,
 					Sales = sales
 				};
-
+				
 				return Ok(result);
 
 			}
